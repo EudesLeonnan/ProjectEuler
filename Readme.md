@@ -1,0 +1,1 @@
+Projeto de aprendizado com os Problemas propostos pelo Project Euler
