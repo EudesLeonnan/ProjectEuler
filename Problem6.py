@@ -14,12 +14,13 @@ def calc(x):
                 a += 1
         if a == x: 
             return (z)
-                        
+
+def test_calc():
+    assert calc(10001) == 104743                      
     
 if __name__ == '__main__':
     result = calc(10001)
     print(f'O primo {result} é o {10001}')
     
-    def test_calc():
-        assert calc(10001) == 104743
+
     
